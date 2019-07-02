@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './pages/App';
 import * as serviceWorker from './serviceWorker';
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
