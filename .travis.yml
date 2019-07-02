@@ -8,7 +8,6 @@ git:
   submodules: false
 before_install:
   - echo -e "\n\nmachine github.com\n  $CI_USER_TOKEN\n" >~/.netrc
-  - echo -e "\n\nmachine github.com\n  $CI_USER_TOKEN\n" >~/levkovalenko.github.io/.netrc
   - git submodule update --init --recursive
 install:
   - npm i
