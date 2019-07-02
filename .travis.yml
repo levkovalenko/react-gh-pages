@@ -15,7 +15,6 @@ install:
 before_script:
   - git submodule foreach git pull origin master
 script:
-  - npm test
   - npm run build
 after_success:
   - ./update_sub.sh
