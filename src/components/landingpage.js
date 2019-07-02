@@ -1,7 +1,7 @@
-import {ReactComponent} from "react-scripts";
+import React, {Component} from "react";
 
 
-class Landing extends ReactComponent {
+class Landing extends Component {
     render() {
         return (
             <div><h1>Landing Page</h1></div>
