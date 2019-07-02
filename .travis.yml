@@ -4,6 +4,15 @@ node_js:
 cache:
   directories:
     - node_modules
+git:
+  submodules: false
+before_install:
+  - echo -e "\n\nmachine github.com\n  $CI_USER_TOKEN\n" >~/.netrc
+  - git submodule update --init --recursive
+install:
+  - npm i
+before_script:
+  - git submodule foreach git pull origin master
 script:
   - npm test
   - npm run build
