@@ -9,16 +9,35 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                     <img
-                        src="https://cdn2.iconfinder.com/data/icons/people-3-2/128/Programmer-Avatar-Backend-Developer-Nerd-512.png"
+                        src={require('./avatar.png')}
                         alt="avatar"
                         className="avatar-img"
                     />
                     <div className="banner-text">
-                        <h1>Data Scientist</h1>
+                        <h1>Just a Student</h1>
                         <hr/>
                         <p>
-                            Python | Sklearn | Pandas |  | TensorFlow | Keras
+                            Docker | Go | Gin | Git | Django | Celery | Python | SkLearn | Keras | Pandas |
                         </p>
+                        <div className="social-links">
+                            {/* telegram */}
+                            <a href="https://t.me/levkovalenko" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-telegram" aria-hidden="true"/>
+                            </a>
+                            {/* github */}
+                            <a href="https://github.com/levkovalenko" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-github" aria-hidden="true"/>
+                            </a>
+                            {/* kaggle */}
+                            <a href="https://www.kaggle.com/karlkori/" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-kaggle" />
+                            </a>
+                            {/* vk */}
+                            <a href="https://vk.com/levkovalenko" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-vk" aria-hidden="true" />
+                            </a>
+
+                        </div>
                     </div>
                     </Cell>
                 </Grid>
