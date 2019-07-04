@@ -31,7 +31,7 @@ For setting up your own autobuild react app:
  - [x] create repository where you will develop
  - [x] create there a react-app
  - [x] create github repository named `<username>.github.io`
- - [x] generate github [tiken](https://github.com/settings/tokens)
+ - [x] generate github [token](https://github.com/settings/tokens)
  - [x] add [travic ci](https://docs.travis-ci.com/user/tutorial/])
  - [x] write script `.travis.yml`, acctually you can use [mine](https://github.com/levkovalenko/react-gh-pages/blob/master/.travis.yml) 
  - [x] [add token](https://docs.travis-ci.com/user/private-dependencies/#api-token) to travis ci
