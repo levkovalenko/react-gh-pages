@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Tab, Tabs, Grid, Cell, Card, CardTitle, CardActions, CardMenu, CardText, Button, IconButton} from "react-mdl";
+import {Tab, Tabs, Grid, Cell, Card, CardTitle, CardActions, CardMenu, CardText, Button} from "react-mdl";
 
 
 class Projects extends Component {
@@ -13,7 +13,47 @@ class Projects extends Component {
             return (
                 <div>
                     <div className="projects-grid">
-                        { /* project # */ }
+                        { /* project #1 */ }
+                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                            <CardTitle style={{color: '#000', height: '176px',
+                                background: 'url(https://kkmax-develop.com/wp-content/uploads/2018/08/sklearn.png) center / cover'}}>
+                                Pet-Project
+                            </CardTitle>
+                            <CardText>
+                                Recommendation system for It events. <br/>Backend - flask, Frontend - React. TeamWork.
+                            </CardText>
+                            <CardActions border style={{margin:'auto'}}>
+                                <Button colored href="https://github.com/robot-lab/PetProject"  target="_blank">
+                                    GitHub
+                                </Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#000'}}>
+                                (IN PROGRESS)
+                            </CardMenu>
+                        </Card>
+                        { /* project #2 */ }
+                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                            <CardTitle style={{color: '#000', height: '176px',
+                                background: 'url(https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png) center / cover'}}>
+                                Science Work
+                            </CardTitle>
+                            <CardText>
+                                A CNN for prediction timeseries bu coding it to heatmaps.<br/>
+                                Written using keras + tensorflow.
+                            </CardText>
+                            <CardActions border style={{margin:'auto'}}>
+                                <Button colored href="https://github.com/levkovalenko/finance-ml"  target="_blank">
+                                    GitHub
+                                </Button>
+                                <Button colored href="https://elibrary.ru/item.asp?id=38095774"  target="_blank">
+                                    Article
+                                </Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#000'}}>
+                                (IN PROGRESS)
+                            </CardMenu>
+                        </Card>
+                        { /* project #3 */ }
                         <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://kkmax-develop.com/wp-content/uploads/2018/08/sklearn.png) center / cover'}}>
@@ -29,7 +69,7 @@ class Projects extends Component {
                                 </Button>
                             </CardActions>
                             <CardMenu style={{color: '#000'}}>
-                                <IconButton name="share" />
+                                (COMPLETED)
                             </CardMenu>
                         </Card>
 
@@ -40,51 +80,25 @@ class Projects extends Component {
             return (
                 <div>
                     <div className="projects-grid">
-                        { /* project # */ }
+                        { /* project #1 */ }
                         <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
                             <CardTitle style={{color: '#000', height: '176px',
-                                background: 'url(https://pythonprogramming.net/static/images/categories/django.png) center / cover'}}>
-                                Judyst
+                                background: 'url(https://www.i2tutorials.com/wp-content/uploads/2018/11/Flask_python_i2tutorials.com_.png) center / cover'}}>
+                                Pet-Project
                             </CardTitle>
                             <CardText>
-                                Project for judicial texts analysis.
-                                Backend on Django, Frontend on VueJS, Database - postgres sql. TeamWork.
+                                Recommendation system for It events. <br/>Backend - flask, Frontend - React. TeamWork.
                             </CardText>
                             <CardActions border style={{margin:'auto'}}>
-                                <Button colored href="https://github.com/robot-lab/judyst-backend"  target="_blank">
-                                    Backend Repo
-                                </Button>
-                                <Button colored href="https://github.com/robot-lab/judyst-frontend"  target="_blank">
-                                    Frontend Repo
-                                </Button>
-                                <Button colored href="https://github.com/robot-lab/judyst-main-web-service"  target="_blank">
-                                    Prototype Repo
-                                </Button>
-                            </CardActions>
-                            <CardMenu style={{color: '#000'}}>
-                                <IconButton name="share" />
-                            </CardMenu>
-                        </Card>
-                        { /* project # */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
-                            <CardTitle style={{color: '#000', height: '176px',
-                                background: 'url(https://www.pixelstech.net/article/images/golang.png) center / cover'}}>
-                                Practicum project
-                            </CardTitle>
-                            <CardText>
-                                An api for a bank credit system on micro-service architecture.
-                                Written on GoLang, deployed with Docker. TeamWork.
-                            </CardText>
-                            <CardActions border style={{margin:'auto'}}>
-                                <Button colored href="https://github.com/apmath-web/data"  target="_blank">
+                                <Button colored href="https://github.com/robot-lab/PetProject"  target="_blank">
                                     GitHub
                                 </Button>
                             </CardActions>
                             <CardMenu style={{color: '#000'}}>
-                                <IconButton name="share" />
+                                (IN PROGRESS)
                             </CardMenu>
                         </Card>
-                        { /* project # */ }
+                        { /* project #2 */ }
                         <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://cdn.auth0.com/blog/react-js/react.png) center / cover'}}>
@@ -103,9 +117,67 @@ class Projects extends Component {
                                 </Button>
                             </CardActions>
                             <CardMenu style={{color: '#000'}}>
-                                <IconButton name="share" />
+                                (IN PROGRESS)
                             </CardMenu>
                         </Card>
+                        { /* project #3 */ }
+                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                            <CardTitle style={{color: '#000', height: '176px',
+                                background: 'url(https://pythonprogramming.net/static/images/categories/django.png) center / cover'}}>
+                                Judyst
+                            </CardTitle>
+                            <CardText>
+                                Project for judicial texts analysis.
+                                Backend on Django, Frontend on VueJS, Database - postgres sql. TeamWork.
+                            </CardText>
+                            <CardActions border style={{margin:'auto'}}>
+                                <Button colored href="https://github.com/robot-lab/judyst-backend"  target="_blank">
+                                    Backend
+                                </Button>
+                                <Button colored href="https://github.com/robot-lab/judyst-frontend"  target="_blank">
+                                    Frontend
+                                </Button>
+                                <Button colored href="https://github.com/robot-lab/judyst-main-web-service"  target="_blank">
+                                    Prototype Repo
+                                </Button>
+                                <Button colored href="https://elibrary.ru/item.asp?id=38095769"  target="_blank">
+                                    Article
+                                </Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#000'}}>
+                                (FROZEN)
+                            </CardMenu>
+                        </Card>
+
+                    </div>
+                    <div className="projects-grid">
+                        { /* project #4 */ }
+                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                            <CardTitle style={{color: '#000', height: '176px',
+                                background: 'url(https://www.pixelstech.net/article/images/golang.png) center / cover'}}>
+                                Practicum project
+                            </CardTitle>
+                            <CardText>
+                                An api for a bank credit system on micro-service architecture.
+                                Written on GoLang, deployed with Docker. TeamWork.
+                            </CardText>
+                            <CardActions border style={{margin:'auto'}}>
+                                <Button colored href="https://github.com/apmath-web/data"  target="_blank">
+                                    GitHub
+                                </Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#000'}}>
+                                (FROZEN)
+                            </CardMenu>
+                        </Card>
+                        { /* project #5 */ }
+                        <div  style={{minWidth: '550px', margin: 'auto'}}>
+
+                        </div>
+                        { /* project #6 */ }
+                        <div style={{minWidth: '550px', margin: 'auto'}}>
+
+                        </div>
                     </div>
                 </div>
             )
@@ -129,7 +201,7 @@ class Projects extends Component {
                                 </Button>
                             </CardActions>
                             <CardMenu style={{color: '#000'}}>
-                                <IconButton name="share" />
+                                (COMPLETED)
                             </CardMenu>
                         </Card>
                         { /* project #2 */ }
@@ -139,7 +211,7 @@ class Projects extends Component {
                                 Computer vision system
                             </CardTitle>
                             <CardText>
-                                A system for detecting objects and get its coordinates by simple webcams.
+                                A system for detecting objects and get its coordinates by simple webcams. TeamWork.
                             </CardText>
                             <CardActions border style={{margin:'auto'}}>
                                 <Button colored href="https://elibrary.ru/item.asp?id=29675897"  target="_blank">
@@ -147,7 +219,25 @@ class Projects extends Component {
                                 </Button>
                             </CardActions>
                             <CardMenu style={{color: '#000'}}>
-                                <IconButton name="share" />
+                                (COMPLETED)
+                            </CardMenu>
+                        </Card>
+                        { /* project #3 */ }
+                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                            <CardTitle style={{color: '#000', height: '176px',
+                                background: 'url(https://upload.wikimedia.org/wikipedia/ru/a/a5/Nanotube_6_9-spheres.jpg) bottom / cover'}}>
+                                Carbon nanotubes modeling
+                            </CardTitle>
+                            <CardText>
+                                A software on c# & c++ for creating 3d models of nuclear structures of carbon nanotubes.
+                            </CardText>
+                            <CardActions border style={{margin:'auto'}}>
+                                <Button colored href="https://elibrary.ru/item.asp?id=26786428"  target="_blank">
+                                    Article
+                                </Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#000'}}>
+                                (COMPLETED)
                             </CardMenu>
                         </Card>
                     </div>
