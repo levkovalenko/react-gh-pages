@@ -65,4 +65,9 @@
     padding: 8px;
 }
 
+.projects-grid {
+  display: flex;
+  padding: 20px;
+}
+
 
