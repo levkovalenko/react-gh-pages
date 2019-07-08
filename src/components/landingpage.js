@@ -17,7 +17,7 @@ class Landing extends Component {
                         <h1>Just a Student</h1>
                         <hr/>
                         <p>
-                            Docker | Go | Gin | Git | Django | Celery | Python | SkLearn | Keras | Pandas |
+                            Docker | Go | Gin | Git | Django | Celery | Python | SkLearn | Keras | Pandas
                         </p>
                         <div className="social-links">
                             {/* telegram */}
