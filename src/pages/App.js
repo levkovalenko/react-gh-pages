@@ -30,13 +30,13 @@ function App() {
                       <Landing/>
                   </section>
                   <br/>
-                  <section id='projects' style={{height: '100vh'}}>
+                  <section id='projects' style={{minHeight: '100vh'}}>
                       <Projects />
                   </section>
-                  <section id='resume' style={{height: '100vh'}}>
+                  <section id='resume' style={{minHeight: '100vh'}}>
                       <Resume/>
                   </section>
-                  <section id='contact' style={{height: '100vh'}}>
+                  <section id='contact' style={{minHeight: '100vh'}}>
                       <Contact/>
                   </section>
 
