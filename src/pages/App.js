@@ -5,7 +5,6 @@ import { HashLink as Link } from 'react-router-hash-link';
 import Landing from "../components/landingpage";
 import Projects from "../components/projects";
 import Resume from "../components/resume";
-import Contact from "../components/contact";
 
 function App() {
   return (
@@ -15,14 +14,12 @@ function App() {
                   <Navigation>
                       <Link to="/#projects" className="mdl-color-text--black">Projects</Link>
                       <Link to="/#resume" className="mdl-color-text--black">Resume</Link>
-                      <Link to="/#contact" className="mdl-color-text--black">Contact</Link>
                   </Navigation>
               </Header>
               <Drawer title="Menu">
                   <Navigation>
                       <Link to="/#projects">Projects</Link>
                       <Link to="/#resume">Resume</Link>
-                      <Link to="/#contact">Contact</Link>
                   </Navigation>
               </Drawer>
               <Content>
@@ -35,9 +32,6 @@ function App() {
                   </section>
                   <section id='resume' style={{minHeight: '100vh'}}>
                       <Resume/>
-                  </section>
-                  <section id='contact' style={{minHeight: '100vh'}}>
-                      <Contact/>
                   </section>
 
 

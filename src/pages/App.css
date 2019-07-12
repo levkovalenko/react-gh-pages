@@ -1,3 +1,4 @@
+/* header css */
 .mdl-layout__drawer-button {
   color: #000 !important;
 }
@@ -9,7 +10,7 @@
     background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
+/* landing page css */
 .landing-grid {
     background: #ADA996;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
@@ -99,53 +100,18 @@
     font-size: 5em;
     padding: 8px;
 }
+/* projects page css */
 
 .projects-grid {
   display: flex;
   padding: 20px;
 }
 
-.contact-body {
-    margin: auto;
-    justify-content: center;
-    padding-top: 5em;
-}
+/* resume page css */
 
-.contact-grid {
-    text-align: center;
-    justify-content: center;
-    width: 80%;
-    min-height: 550px;
-    background: white;
-    color: #000;
-    margin-bottom: 20px;
-}
-
-.contact-grid h2 {
-    font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-    font-family: 'Anton', sans-serif;
-    font-weight: bold;
-}
-
-.contact-grid hr {
-    border-top: 5px dotted black;
-    width: 50%;
-    margin: auto;
-}
-.contact-list {
-    margin-left: 10%;
-}
-
-.contact-list i {
-    font-size: 60px;
-    padding-right: 5rem;
-}
-
-
-.contact-list-phone i {
-    font-size: 30px;
-    padding-right: 2rem;
+.resume-right-col {
+    background-color: black;
+    opacity: .8;
+    color: #fff;
+    padding: 2em;
 }
