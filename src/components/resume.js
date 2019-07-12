@@ -21,7 +21,8 @@ class Resume extends Component {
                         <h2 style={{paddingTop:'2em'}}>Lev Kovalenko</h2>
                         <h4 style={{color:'grey'}}>Student</h4>
                         <hr/>
-                        <p> I'm an enthusiastic and self-motivated student of SPBU. Python dev and C++ enthusiast . Currently in love with Go and its multithreaded features.</p>
+                        <p> I'm an enthusiastic and self-motivated student of SPBU. Python dev and C++ enthusiast .
+                            Currently in love with Go and its multithreaded features.</p>
                         <hr/>
                         <h5>Address</h5>
                         <p>St. Petersburg Botanicheskay st. 66/2</p>
@@ -59,7 +60,7 @@ class Resume extends Component {
                             endYear={'2019 may'}
                             jobName="OktetLabs"
                             jobDescription={"It was my  internship. I want to try my self in c/c++, "+
-                            "but i understand what it isn't mine"}
+                            "but i understand that it isn't mine"}
                         />
                         <Experience
                             startYear={'2018 september'}
