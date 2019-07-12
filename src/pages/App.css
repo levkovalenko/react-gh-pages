@@ -27,15 +27,36 @@
     padding-top: 5em;
 }
 
+.avatar-img-phone {
+    height: 200px;
+    padding-top: 5em;
+}
+
 .banner-text {
     background-color: black;
     opacity: .8;
-    width: 50%;
+    width: 70%;
     margin: auto;
     border-radius: 10px;
     word-wrap: break-word;
 }
-
+.banner-text-phone {
+    background-color: black;
+    opacity: .8;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+.banner-text-phone h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.banner-text-phone p {
+    color: white;
+    font-size: 18px;
+}
 .banner-text h1 {
     font-size: 66px;
     font-weight: bold;
@@ -53,8 +74,19 @@
     font-size: 22px;
     padding: 1em;
 }
-
-.social-links {
+.banner-text-phone .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.banner-text-phone .social-links i {
+    color: white;
+    font-size: 2em;
+    padding: 6px;
+}
+.banner-text .social-links {
     display: flex;
     justify-content: space-between;
     width: 50%;
@@ -62,7 +94,7 @@
     flex-wrap: wrap;
 }
 
-.social-links i {
+.banner-text .social-links i {
     color: white;
     font-size: 5em;
     padding: 8px;
@@ -94,7 +126,7 @@
 }
 
 .contact-grid p {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-weight: bold;
 }
 

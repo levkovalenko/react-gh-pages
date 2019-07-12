@@ -11,10 +11,10 @@ class Projects extends Component {
     toggleCategories() {
         if ( this.state.activeTab === 0) {
             return (
-                <div>
-                    <div className="projects-grid">
+                <Grid>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #1 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{width: '100%', margin: 'auto', maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://kkmax-develop.com/wp-content/uploads/2018/08/sklearn.png) center / cover'}}>
                                 Pet-Project
@@ -31,8 +31,10 @@ class Projects extends Component {
                                 (IN PROGRESS)
                             </CardMenu>
                         </Card>
+                    </Cell>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #2 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{width: '100%', margin: 'auto', maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png) center / cover'}}>
                                 Science Work
@@ -53,15 +55,17 @@ class Projects extends Component {
                                 (IN PROGRESS)
                             </CardMenu>
                         </Card>
+                    </Cell>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #3 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{width: '100%', margin: 'auto', maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://kkmax-develop.com/wp-content/uploads/2018/08/sklearn.png) center / cover'}}>
                                 Practicum project
                             </CardTitle>
                             <CardText>
-                                1. Task for text theme modeling. Solved by naive bayes.<br/>
-                                2. Transport routes classification. Solved by RandomForest
+                                Task for text theme modeling. Solved by naive bayes.
+                                Transport routes classification. Solved by RandomForest
                             </CardText>
                             <CardActions border style={{margin:'auto'}}>
                                 <Button colored href="https://github.com/levkovalenko/pm_task_2018"  target="_blank">
@@ -72,16 +76,15 @@ class Projects extends Component {
                                 (COMPLETED)
                             </CardMenu>
                         </Card>
-
-                    </div>
-                </div>
+                    </Cell>
+                </Grid>
             )
         } else if ( this.state.activeTab === 1) {
             return (
-                <div>
-                    <div className="projects-grid">
+                <Grid>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #1 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{minWidth: '100%', margin: 'auto', maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://www.i2tutorials.com/wp-content/uploads/2018/11/Flask_python_i2tutorials.com_.png) center / cover'}}>
                                 Pet-Project
@@ -98,8 +101,10 @@ class Projects extends Component {
                                 (IN PROGRESS)
                             </CardMenu>
                         </Card>
+                    </Cell>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #2 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{minWidth: '100%', margin: 'auto', maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://cdn.auth0.com/blog/react-js/react.png) center / cover'}}>
                                 Portfolio
@@ -120,8 +125,10 @@ class Projects extends Component {
                                 (IN PROGRESS)
                             </CardMenu>
                         </Card>
+                    </Cell>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #3 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{minWidth: '100%', margin: 'auto', maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://pythonprogramming.net/static/images/categories/django.png) center / cover'}}>
                                 Judyst
@@ -149,10 +156,10 @@ class Projects extends Component {
                             </CardMenu>
                         </Card>
 
-                    </div>
-                    <div className="projects-grid">
+                    </Cell>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #4 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{minWidth: '100%', margin: 'auto', maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://www.pixelstech.net/article/images/golang.png) center / cover'}}>
                                 Practicum project
@@ -170,23 +177,16 @@ class Projects extends Component {
                                 (FROZEN)
                             </CardMenu>
                         </Card>
-                        { /* project #5 */ }
-                        <div  style={{minWidth: '550px', margin: 'auto'}}>
 
-                        </div>
-                        { /* project #6 */ }
-                        <div style={{minWidth: '550px', margin: 'auto'}}>
-
-                        </div>
-                    </div>
-                </div>
+                    </Cell>
+                </Grid>
             )
         } else if ( this.state.activeTab === 2) {
             return (
-                <div>
-                    <div className="projects-grid">
+                <Grid>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #1 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{minWidth: '100%', margin: 'auto', maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://www.okuma.com/stuff/contentmgr/files/0/7dde068af32b6e89c7e65ef54e517cc9/image/okuma_partner_fanuc_730x730.png) center / cover'}}>
                                 Robot Control System
@@ -204,14 +204,17 @@ class Projects extends Component {
                                 (COMPLETED)
                             </CardMenu>
                         </Card>
+                    </Cell>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #2 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{minWidth: '100%', margin: 'auto',maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://miro.medium.com/max/3200/1*S8Il5ethl3YFh0M9XKVz-A.png) center / cover'}}>
                                 Computer vision system
                             </CardTitle>
                             <CardText>
-                                A system for detecting objects and get its coordinates by simple webcams. TeamWork.
+                                A system for detecting objects and get its coordinates by simple webcams.
+                                Written on c++ & python. TeamWork.
                             </CardText>
                             <CardActions border style={{margin:'auto'}}>
                                 <Button colored href="https://elibrary.ru/item.asp?id=29675897"  target="_blank">
@@ -222,8 +225,10 @@ class Projects extends Component {
                                 (COMPLETED)
                             </CardMenu>
                         </Card>
+                    </Cell>
+                    <Cell col={4} tablet={10} phone={12}>
                         { /* project #3 */ }
-                        <Card shadow={5} style={{minWidth: '550px', margin: 'auto'}}>
+                        <Card shadow={5} style={{minWidth: '100%', margin: 'auto', maxHeight:'250px'}}>
                             <CardTitle style={{color: '#000', height: '176px',
                                 background: 'url(https://upload.wikimedia.org/wikipedia/ru/a/a5/Nanotube_6_9-spheres.jpg) bottom / cover'}}>
                                 Carbon nanotubes modeling
@@ -240,8 +245,8 @@ class Projects extends Component {
                                 (COMPLETED)
                             </CardMenu>
                         </Card>
-                    </div>
-                </div>
+                    </Cell>
+                </Grid>
 
             )
         }
@@ -256,13 +261,7 @@ class Projects extends Component {
                     <Tab>Web</Tab>
                     <Tab>R&D</Tab>
                 </Tabs>
-                <Grid>
-                    <Cell col={12}>
-                        <div className="content">
-                            {this.toggleCategories()}
-                        </div>
-                    </Cell>
-                </Grid>
+                {this.toggleCategories()}
 
             </div>
         )
