@@ -59,16 +59,16 @@ class Resume extends Component {
                             startYear={'2018 december'}
                             endYear={'2019 may'}
                             jobName="OktetLabs"
-                            jobDescription={"It was my  internship. I want to try my self in c/c++, "+
-                            "but i understand that it isn't mine"}
+                            jobDescription={"It was my  internship. I want to try myself in c/c++, "+
+                            "but i understand that it isn't mine."}
                         />
                         <Experience
                             startYear={'2018 september'}
                             endYear={'now'}
                             jobName="Webim"
-                            jobDescription={"I was working as python backend developer. Me stack was django + celery." +
+                            jobDescription={"I was working as python backend developer. Me stack was django + celery. " +
                             "Moreover sometimes i was got tasks for fronted, written on angular + material, so i know "+
-                            "it in little bit"}
+                            "it in little bit."}
                         />
                         <h2>Skills</h2>
                         <Skills
