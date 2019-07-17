@@ -27,7 +27,7 @@ class Projects extends Component {
                                     GitHub
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'orange'}}>
                                 (IN PROGRESS)
                             </CardMenu>
                         </Card>
@@ -51,7 +51,7 @@ class Projects extends Component {
                                     Article
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'orange'}}>
                                 (IN PROGRESS)
                             </CardMenu>
                         </Card>
@@ -72,7 +72,7 @@ class Projects extends Component {
                                     GitHub
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'green'}}>
                                 (COMPLETED)
                             </CardMenu>
                         </Card>
@@ -97,7 +97,7 @@ class Projects extends Component {
                                     GitHub
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'orange'}}>
                                 (IN PROGRESS)
                             </CardMenu>
                         </Card>
@@ -121,7 +121,7 @@ class Projects extends Component {
                                     Live Demo
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'orange'}}>
                                 (IN PROGRESS)
                             </CardMenu>
                         </Card>
@@ -151,7 +151,7 @@ class Projects extends Component {
                                     Article
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'blue'}}>
                                 (FROZEN)
                             </CardMenu>
                         </Card>
@@ -173,7 +173,7 @@ class Projects extends Component {
                                     GitHub
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'blue'}}>
                                 (FROZEN)
                             </CardMenu>
                         </Card>
@@ -200,7 +200,7 @@ class Projects extends Component {
                                     GitHub
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'green'}}>
                                 (COMPLETED)
                             </CardMenu>
                         </Card>
@@ -221,7 +221,7 @@ class Projects extends Component {
                                     Article
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'green'}}>
                                 (COMPLETED)
                             </CardMenu>
                         </Card>
@@ -241,7 +241,7 @@ class Projects extends Component {
                                     Article
                                 </Button>
                             </CardActions>
-                            <CardMenu style={{color: '#000'}}>
+                            <CardMenu style={{color: 'green'}}>
                                 (COMPLETED)
                             </CardMenu>
                         </Card>
