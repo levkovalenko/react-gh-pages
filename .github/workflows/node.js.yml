@@ -32,6 +32,5 @@ jobs:
     - run: chmod +x update_sub.sh
     - run: git submodule update --init --recursive
     - run: npm i
-    - run: git submodule foreach git pull --rebase origin master
     - run: npm run build
     - run: ./update_sub.sh
