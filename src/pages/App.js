@@ -10,29 +10,11 @@ function App() {
   return (
       <div className="demo-big-content">
           <Layout>
-              <Header waterfall className="header-color" title="Portfolio" scroll>
-                  <Navigation>
-                      <Link to="/#projects" className="mdl-color-text--black">Projects</Link>
-                      <Link to="/#resume" className="mdl-color-text--black">Resume</Link>
-                  </Navigation>
-              </Header>
-              <Drawer title="Menu">
-                  <Navigation>
-                      <Link to="/#projects">Projects</Link>
-                      <Link to="/#resume">Resume</Link>
-                  </Navigation>
-              </Drawer>
               <Content>
                   <section id='#' style={{height: '100vh'}}>
                       <Landing/>
                   </section>
                   <br/>
-//                   <section id='projects' style={{minHeight: '100vh'}}>
-//                       <Projects />
-//                   </section>
-//                   <section id='resume' style={{minHeight: '100vh'}}>
-//                       <Resume/>
-//                   </section>
 
 
 
